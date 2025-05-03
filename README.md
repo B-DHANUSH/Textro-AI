@@ -19,21 +19,23 @@ This project provides an end-to-end solution for converting PDF documents into c
 pdf-to-md-converter/
 │
 ├── app.py # Flask app
+│
 ├── converter/
-│ ├── init.py
+│ ├── init.py # Initialize the converter module
 │ ├── pdf_to_text.py # PDF text extraction logic
 │ └── text_to_md.py # Markdown formatting logic
 │
 ├── static/
 │ └── style.css # Optional styles
+│
 ├── templates/
 │ └── index.html # Upload interface
 │
 ├── test/
-│ └── sample.pdf
-├── postman_collection.json
-└── README.md
-
+│ └── sample.pdf # Sample PDF for testing
+│
+├── postman_collection.json # Postman collection for API testing
+└── README.md # This file
 
 ---
 
