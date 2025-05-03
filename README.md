@@ -28,7 +28,7 @@ pdf-to-md-converter/
 
 - Python 3  
 - Flask  
-- pdfminer.six / PyMuPDF  
+- PyMuPDF  
 - HTML 
 - Postman  
 
